@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Form Đặt Lịch Tư Vấn Học Tập</h2>
+        <div>
+            <label for="userName">Họ và tên: </label>
+            <input type="text" id="userName">
+        </div>
+        <br>
+        <div>
+            <label for="datetime-local">Chọn ngày giờ: </label>
+            <input type="datetime-local" id="datetime-local">
+        </div>
+        <br>
+        <div>
+            <label for="service">Loại dịch vụ: </label>
+            <select name="service" id="service">
+                <option value="service1">Tư vấn học tập</option>
+                <option value="service2">Hướng nghiệp</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="feedback">Ghi chú: </label>
+            <textarea name="feedback" id="feedback" cols="20" rows="2"></textarea>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Đặt lịch</button>
+        </div>
+    </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Đăng ký sinh viên mới</h2>
+        <div>
+           <label for="userName">Họ và tên </label>
+           <input type="text" id="userName" value="Nguyễn Văn An">
+        </div>
+        <br>
+        <div>
+            <label for="dateOfBirth">Ngày sinh đầy đủ</label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth" value="2005-03-15">
+        </div>
+        <br>
+        <div>
+            <label for="monthAndYear">Tháng và năm nhập học</label>
+            <input type="month" id="monthAndYear" name="monthAndYear" value="2023-09">
+        </div>
+        <br>
+        <div>
+            <label for="studyTime">Thời gian học</label>
+            <input type="time" id="studyTime" name="studyTime" value="08:00">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Giới tính</label>
+            <input type="radio" id="male"  name="gender" value="nam">
+            <label for="male">Nam</label>
+            <input type="radio" id="female" name="gender" value="nữ">
+            <label for="female">Nữ</label>
+            <input type="radio" id="other" name="gender" value="khác" checked>
+            <label for="other">Khác</label>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email sinh viên</label>
+            <input type="email" id="email" name="email" value="sinhvien@university.edu.vn">
+        </div>
+        <br>
+        <div>
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" name="password" value="123456789">
+        </div>
+        <br>
+        <div>
+            <label for="aim">Mục tiêu học tập</label>
+            <textarea id="aim" name="aim" cols="40" rows="5">Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội</textarea>
+        </div>
+    </form>
+</body>
+</html>
